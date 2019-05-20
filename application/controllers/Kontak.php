@@ -7,6 +7,7 @@ Class Kontak extends CI_Controller{
         parent::__construct();
         // $this->API="http://localhost/rest_ci/index.php";
         $this->API="http://test.sdcilsy-charlie.web.id:8080";
+//        $this->API="http://prod-ci-rest.sdcilsy-charlie.web.id";
         // http://test.sdcilsy-charlie.web.id:8080/api/kontak/users        
         $this->load->library('session');
         $this->load->library('Curl');
