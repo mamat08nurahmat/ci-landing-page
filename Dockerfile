@@ -7,7 +7,7 @@ RUN apt-get -y update --fix-missing
 #RUN apt-get -y install apt-utils nano wget dialog
 
 # Install important libraries
-RUN apt-get -y install --fix-missing apt-utils build-essential git curl libcurl3 libcurl3-dev 
+#RUN apt-get -y install --fix-missing apt-utils build-essential git curl libcurl3 libcurl3-dev 
 #zip
 
 # Composer
@@ -19,8 +19,8 @@ RUN apt-get -y install --fix-missing apt-utils build-essential git curl libcurl3
 
 # Other PHP7 Extensions
 
-RUN apt-get -y install libmcrypt-dev
-RUN docker-php-ext-install mcrypt
+#RUN apt-get -y install libmcrypt-dev
+#RUN docker-php-ext-install mcrypt
 
 # RUN apt-get -y install libsqlite3-dev libsqlite3-0 
 RUN apt-get -y install  mysql-client
@@ -28,9 +28,9 @@ RUN docker-php-ext-install pdo_mysql
 # RUN docker-php-ext-install pdo_sqlite
 RUN docker-php-ext-install mysqli
 
-RUN docker-php-ext-install curl
+#RUN docker-php-ext-install curl
 #RUN docker-php-ext-install tokenizer
-RUN docker-php-ext-install json
+#RUN docker-php-ext-install json
 
 #RUN apt-get -y install zlib1g-dev
 #RUN docker-php-ext-install zip
