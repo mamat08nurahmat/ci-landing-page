@@ -675,7 +675,7 @@
               </div>
 
 							<div class="form-group">
-                <textarea name="pesan" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="" id="" name="pesan" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
